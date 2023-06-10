@@ -94,8 +94,8 @@ LOG_STR += f"Your current IMDB template is {IMDB_TEMPLATE}"
 
 # EXTRA FEATURES
 # URL Shortener
-SHORTENER = environ.get('SHORTENER', '')                                # Recommended
-SHORTENER_API = environ.get('SHORTENER_API', '')                        # Recommended
+SHORTENER = environ.get('SHORTENER', 'TinyFy.in')                                # Recommended
+SHORTENER_API = environ.get('SHORTENER_API', '0f64acf055dbf9f5818a2d4a27489d4936f1c9de')                        # Recommended
 
 # Auto Delete For Group Message (Self Delete)
 SELF_DELETE_SECONDS = int(environ.get('SELF_DELETE_SECONDS', 300))
@@ -109,7 +109,7 @@ UPDATES_BTN_URL = "https://telegram.me/Nanthakps"                       # Recomm
 
 # Subscribe Button
 SUBSCRIBE_BTN_NAME = "⚡️ ꜱᴜʙꜱᴄʀɪʙᴇ ᴄʜᴀɴɴᴇʟ ⚡️ "                         # Recommended
-SUBSCRIBE_BTN_URL = "https://telegram.me/Nanthakps"                     # Recommended
+SUBSCRIBE_BTN_URL = "https://youtube.com/@ThammuTv"                     # Recommended
 
 # How To Download Button
 DOWNLOAD_BTN_NAME = "⚡ ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ ⚡"                             # Recommended
