@@ -40,7 +40,7 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegramfiles')
 
 # Others
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', ''))                               # Recommended
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'Nanthakps')                         # Recommended
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'ThammuTV')                         # Recommended
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
 IMDB = is_enabled((environ.get('IMDB', "True")), True)
 SINGLE_BUTTON = is_enabled((environ.get('SINGLE_BUTTON', "True")), True)
@@ -51,7 +51,7 @@ CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION",
 
 🏷 Size : {file_size}
 
-📥 Join Channel : @Nanthakps
+📥 Join Channel :@ThammuTV
 </b>''')                                            # [Nanthakps](https://telegram.me/Nanthakps)
 
 BATCH_FILE_CAPTION = environ.get("BATCH_FILE_CAPTION",
@@ -60,7 +60,7 @@ BATCH_FILE_CAPTION = environ.get("BATCH_FILE_CAPTION",
 
 🏷 Size : {file_size}
 
-📥 Join Channel : @Nanthakps
+📥 Join Channel : @ThammuTV
 </b>''')                                            # [Nanthakps](https://telegram.me/Nanthakps)
 
 IMDB_TEMPLATE = environ.get("IMDB_TEMPLATE",
@@ -70,7 +70,7 @@ IMDB_TEMPLATE = environ.get("IMDB_TEMPLATE",
 📆 Year : {year}
 🌟 Rating : {rating} | IMDB</b>
 
-<b>© Upload by : @Nanthakps
+<b>© Upload by :@ThammuTV
 </b>''')                                            # [Nanthakps](https://telegram.me/Nanthakps)
 
 LONG_IMDB_DESCRIPTION = is_enabled(environ.get("LONG_IMDB_DESCRIPTION", "False"), False)
@@ -105,7 +105,7 @@ if SELF_DELETE == "True":
 
 # Updates Button
 UPDATES_BTN_NAME = "⚡️ ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ ⚡️"                        # Recommended
-UPDATES_BTN_URL = "https://telegram.me/Nanthakps"                       # Recommended
+UPDATES_BTN_URL = "https://t.me/ThammuTV"                       # Recommended
 
 # Subscribe Button
 SUBSCRIBE_BTN_NAME = "⚡️ ꜱᴜʙꜱᴄʀɪʙᴇ ᴄʜᴀɴɴᴇʟ ⚡️ "                         # Recommended
