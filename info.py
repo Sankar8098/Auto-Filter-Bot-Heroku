@@ -24,11 +24,11 @@ USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 PICS = (environ.get('PICS', '')).split()
 
 # Admins, Channels & Users
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '604152966').split()]    # Recommended
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '').split()]
-auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '').split()]
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5821871362').split()]    # Recommended
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1001828551401').split()]
+auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '5821871362').split()]
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
-updates_channel = environ.get('UPDATES_CHANNEL', '')                            # Make admin on this bot your channel
+updates_channel = environ.get('UPDATES_CHANNEL', 'SK_MoviesOffl')                            # Make admin on this bot your channel
 auth_grp = environ.get('AUTH_GROUP', '')
 UPDATES_CHANNEL = int(updates_channel) if updates_channel and id_pattern.search(updates_channel) else None
 AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
