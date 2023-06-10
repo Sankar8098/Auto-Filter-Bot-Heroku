@@ -14,9 +14,9 @@ def is_enabled(value, default):
 
 # Bot information
 SESSION = environ.get('SESSION', 'Media_search')
-API_ID = int(environ.get('API_ID', '14553761'))                                 # Recommended
-API_HASH = environ.get('API_HASH', 'a1cab49dcdfd2eb3bea5e5a552c5d479')          # Recommended
-BOT_TOKEN = environ.get('BOT_TOKEN', "")                                        # Recommended
+API_ID = int(environ.get('API_ID', '23990433'))                                 # Recommended
+API_HASH = environ.get('API_HASH', 'e6c4b6ee1933711bc4da9d7d17e1eb20')          # Recommended
+BOT_TOKEN = environ.get('BOT_TOKEN', "6237026610:AAHI-0UuIhgW9gHxyumYiQq7-tC78pHrHTQ")                                        # Recommended
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
@@ -34,7 +34,7 @@ UPDATES_CHANNEL = int(updates_channel) if updates_channel and id_pattern.search(
 AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
 
 # MongoDB information
-DATABASE_URL = environ.get('DATABASE_URL', "")                                  # Recommended
+DATABASE_URL = environ.get('DATABASE_URL', "mongodb+srv://nakflixbot:alpha3720@cluster0.qgybxbu.mongodb.net/?retryWrites=true&w=majority")                                  # Recommended
 DATABASE_NAME = environ.get('DATABASE_NAME', "Filterbot")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegramfiles')
 
